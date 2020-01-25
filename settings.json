@@ -1,0 +1,119 @@
+{
+    //========== General Settings ==========
+    // Open files and folders in new window when open outside this application
+    "window.openFilesInNewWindow": "default",
+    "window.openFoldersInNewWindow": "default",
+    // Use block style cursor
+    "editor.cursorStyle": "block",
+    // Hide the menu
+    "window.menuBarVisibility": "hidden",
+    // Don't make the menu bar when key combinations like "alt+s" is used
+    "window.enableMenuBarMnemonics": false,
+    // Open an empty window on start
+    "window.restoreWindows": "none",
+    // Don't open the welcome page on start
+    "workbench.startupEditor": "none",
+    // Make the searches case-insensitive
+    "search.smartCase": true,
+    // Show line numbers
+    "editor.lineNumbers": "on",
+
+    //========== UI Settings ==========
+    // Don't show the minimap
+    "editor.minimap.enabled": false,
+    // Zoom level
+    "window.zoomLevel": 0,
+    // Just hide the side bar when using zenmode
+    "zenMode.centerLayout": false,
+    "zenMode.fullScreen": false,
+    "zenMode.hideActivityBar": true,
+    "zenMode.hideStatusBar": false,
+    "zenMode.hideTabs": true,
+    "zenMode.restore": true,
+    "zenMode.hideLineNumbers": false,
+
+    //========== C/C++ Settings ==========
+    // The compile commands to use
+    "C_Cpp.default.compilerPath": "/usr/bin/g++",
+    // The C++ standard to use (c++98/c++03/c++11/c++14/c++17)
+    "C_Cpp.default.cppStandard": "c++17",
+    // The C standard to use (c89/c99/c11)
+    "C_Cpp.default.cStandard": "c11",
+    // The intelliSenseMode to use (clang-x64/gcc-x64/msvc-x64)
+    "C_Cpp.default.intelliSenseMode": "gcc-x64",
+    // Turn on IntelliSence by default
+    "C_Cpp.intelliSenseEngine": "Default",
+    // Use Google C++ style for formating
+    "C_Cpp.clang_format_fallbackStyle": "Google",
+    // Use a single global cache for c++ intelli-sense
+    // https://github.com/Microsoft/vscode-cpptools/issues/3347
+    "C_Cpp.intelliSenseCachePath": "~/.vscode",
+
+    //========== Java Settings ==========
+    // The URL/local file path of the eclipse formatter file to use
+    "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
+    // The name of the profile to use
+    "java.format.settings.profile": "GoogleStyle",
+
+    //========== Python Settings ==========
+    // The path of the python command to use
+    "python.pythonPath": "python3",
+    // Provider for formatting.
+    "python.formatting.provider": "autopep8",
+    // Path to autopep8
+    "python.formatting.autopep8Path": "autopep8",
+    // Whether to lint Python files.
+    "python.linting.enabled": true,
+    // Whether to lint Python files using pylint.
+    "python.linting.pylintEnabled": true,
+    // Path to Pylint
+    "python.linting.pylintPath": "pylint",
+
+    //========== Golang Settings ==========
+    // The tool to use to get documentation
+    "go.docsTool": "godoc",
+    // The tool to use to format the code
+    "go.formatTool": "gofmt",
+    // The tool to use to vet the code
+    "go.vetOnSave": "package",
+    // The tool to use to lint the code
+    "go.lintTool": "golint",
+    // Lint on file save
+    "go.lintOnSave": "package",
+    // Include unimported packages in auto-complete suggestions.
+    "go.autocompleteUnimportedPackages": true,
+    // Don't compile the code on file save
+    "go.buildOnSave": "off",
+    // Configure other editor settings
+    "[go]": {
+        "editor.insertSpaces": true,
+        "editor.formatOnSave": false,
+    },
+    
+    //========== Haskell Settings ==========
+    // "languageServerHaskell.useCustomHieWrapper": true,
+    // "languageServerHaskell.useCustomHieWrapperPath": "${HOME}/.local/bin/hie-wrapper",
+
+    //========== HTML Settings ==========
+    // Validate embeded scripts
+    "html.validate.scripts": true,
+    // Validate embeded styles
+    "html.validate.styles": true,
+    // Set maximum letters per line
+    "html.format.wrapLineLength": 80,
+    // Add a new line at the end of files
+    "html.format.endWithNewline": true,
+    // Configure other editor settings
+    "[html]": {
+        "editor.tabSize": 2,
+    },
+
+    //========== Ruby Settings ==========
+    // Configure other editor settings
+    "[ruby]": {
+        "editor.tabSize": 2,
+    },
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+}

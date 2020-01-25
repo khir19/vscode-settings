@@ -1,0 +1,145 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    ////////// Remove some anoying default keybindings //////////
+    // {
+    //     "key": "ctrl+n",
+    //     "command": "-workbench.action.files.newUntitledFile"
+    // },
+    ////////// Shortcuts to better resemble Emacs //////////
+    // Open file
+    {
+        "key": "ctrl+x ctrl+f",
+        "command": "extension.simpleNewFile"
+    },
+    // Close the editor
+    {
+        "key": "ctrl+x ctrl+c",
+        "command": "workbench.action.closeWindow"
+    },
+    // Open the next tab in group
+    {
+        "key": "ctrl+x b",
+        "command": "workbench.action.openNextRecentlyUsedEditorInGroup"
+    },
+    // Show all editors
+    {
+        "key": "ctrl+x ctrl+b",
+        "command": "workbench.action.showAllEditors"
+    },
+    // Close tab
+    {
+        "key": "ctrl+x 0",
+        "command": "workbench.action.closeEditorsInGroup",
+        "when": "editorTextFocus"
+    },
+    // Redo
+    {
+        "key": "ctrl+.",
+        "command": "redo",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    // Format selection
+    {
+        "key": "ctrl+i",
+        "command": "editor.action.formatDocument",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    ////////// Some shortcuts I was using when using Emacs //////////
+    // Toggle terminal
+    {
+        "key": "ctrl+t",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    // Replace
+    {
+        "key": "ctrl+c ctrl+r",
+        "command": "editor.action.startFindReplaceAction",
+    },
+    // Auto completion
+    {
+        "key": "enter",
+        "command": "-acceptSelectedSuggestion",
+    },
+    {
+        "key": "ctrl+p",
+        "command": "-selectPrevSuggestion",
+    },
+    {
+        "key": "ctrl+n",
+        "command": "-selectNextSuggestion",
+    },
+    {
+        "key": "ctrl+n",
+        "command": "emacs.cursorDown",
+        "when": "editorTextFocus && suggestWidgetVisible"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "emacs.cursorUp",
+        "when": "editorTextFocus && suggestWidgetVisible"
+    },
+    {
+        "key": "alt+p",
+        "command": "selectPrevSuggestion",
+        "when": "editorTextFocus && suggestWidgetVisible"
+    },
+    {
+        "key": "alt+n",
+        "command": "selectNextSuggestion",
+        "when": "editorTextFocus && suggestWidgetVisible"
+    },
+    ////////// Some new shortcuts for VSCode //////////
+    // Undo cursor position
+    {
+        "key": "alt+/",
+        "command": "workbench.action.navigateBack"
+    },
+    // Redo cursor position
+    {
+        "key": "alt+.",
+        "command": "workbench.action.navigateForward"
+    },
+    // Search for symbol
+    {
+        "key": "ctrl+c ctrl+s",
+        "command": "workbench.action.gotoSymbol"
+    },
+    // Move editors between groups
+    {
+        "key": "ctrl+c right",
+        "command": "workbench.action.moveEditorToNextGroup"
+    },
+    {
+        "key": "ctrl+c left",
+        "command": "workbench.action.moveEditorToPreviousGroup"
+    },
+    // Move editor groups
+    {
+        "key": "ctrl+c ctrl+down",
+        "command": "workbench.action.moveActiveEditorGroupDown"
+    },
+    {
+        "key": "ctrl+c ctrl+left",
+        "command": "workbench.action.moveActiveEditorGroupLeft"
+    },
+    {
+        "key": "ctrl+c ctrl+right",
+        "command": "workbench.action.moveActiveEditorGroupRight"
+    },
+    {
+        "key": "ctrl+c ctrl+up",
+        "command": "workbench.action.moveActiveEditorGroupUp"
+    },
+    // Trigger suggest
+    {
+        "key": "ctrl+,",
+        "command": "editor.action.triggerSuggest",
+        "when": "editorTextFocus"
+    },
+    // Show details suggest
+    {
+        "key": "ctrl+,",
+        "command": "toggleSuggestionDetails",
+        "when": "editorTextFocus && suggestWidgetVisible"
+    },
+]

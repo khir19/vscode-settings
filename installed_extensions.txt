@@ -1,0 +1,17 @@
+alanz.vscode-hie-server
+DavidAnson.vscode-markdownlint
+fayras.simple-new-file
+goessner.mdmath
+justusadam.language-haskell
+lfs.vscode-emacs-friendly
+ms-python.python
+ms-vscode.cpptools
+ms-vscode.Go
+nobuhito.printcode
+redhat.java
+VisualStudioExptTeam.vscodeintellicode
+vscjava.vscode-java-debug
+vscjava.vscode-java-dependency
+vscjava.vscode-java-pack
+vscjava.vscode-java-test
+vscjava.vscode-maven
