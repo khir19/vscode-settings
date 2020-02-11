@@ -114,7 +114,4 @@
         // Set tab size to 2 spaces
         "editor.tabSize": 2,
     },
-    "editor.multiCursorModifier": "ctrlCmd",
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
 }
