@@ -111,6 +111,7 @@
     //========== Ruby Settings ==========
     // Configure other editor settings
     "[ruby]": {
+        // Set tab size to 2 spaces
         "editor.tabSize": 2,
     },
     "editor.multiCursorModifier": "ctrlCmd",
