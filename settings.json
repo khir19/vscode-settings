@@ -17,6 +17,8 @@
     "search.smartCase": true,
     // Show line numbers
     "editor.lineNumbers": "on",
+    // Add a new line a the end of the current file on save
+    "files.insertFinalNewline": true,
 
     //========== UI Settings ==========
     // Don't show the minimap
