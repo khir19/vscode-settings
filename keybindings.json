@@ -19,7 +19,7 @@
     // Open the next tab in group
     {
         "key": "ctrl+x b",
-        "command": "workbench.action.openNextRecentlyUsedEditorInGroup"
+        "command": "workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup"
     },
     // Show all editors
     {
