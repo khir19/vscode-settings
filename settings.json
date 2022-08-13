@@ -70,16 +70,21 @@
     //================
     // Java Settings
     //================
-    // Formatter settings (TODO: currently not working)
-    // Ref: https://github.com/redhat-developer/vscode-java/wiki/Formatter-settings
     // Provide intellisense, error checking, etc for dependencies too
     "java.server.launchMode": "Standard",
-    // The URL/local file path of the eclipse formatter file to use
-    "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
-    // The name of the profile to use
-    "java.format.settings.profile": "GoogleStyle",
+    // Formatter settings (TODO: currently not working)
+    // Ref: https://github.com/redhat-developer/vscode-java/wiki/Formatter-settings
+    // // The URL/local file path of the eclipse formatter file to use
+    // "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
+    // // The name of the profile to use
+    // "java.format.settings.profile": "GoogleStyle",
+    // "[java]": {
+    //     "editor.defaultFormatter": "redhat.java"
+    // },
+    // Format Java files using google-java-formatter
+    "gjf.jarPath": "~/Opt/google-java-format/google-java-format-1.15.0-all-deps.jar",
     "[java]": {
-        "editor.defaultFormatter": "redhat.java"
+        "editor.defaultFormatter": "mngrm3a.vscode-google-java-formatter"
     },
     //==================
     // Python Settings

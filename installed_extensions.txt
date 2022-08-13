@@ -4,7 +4,12 @@ GabrielBB.vscode-lombok
 goessner.mdmath
 golang.go
 lfs.vscode-emacs-friendly
+mngrm3a.vscode-google-java-formatter
 ms-python.python
+ms-python.vscode-pylance
+ms-toolsai.jupyter
+ms-toolsai.jupyter-keymap
+ms-toolsai.jupyter-renderers
 ms-vscode.cpptools
 nobuhito.printcode
 redhat.java
