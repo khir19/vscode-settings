@@ -20,7 +20,7 @@ My VSCode settings
    - See [Settings file locations][].
 1. Install all extensions listed in the file `installed_extensions.txt`.
    - For example in Linux, execute the command below.
-     - `cat <vscode-settings-path>/installed_extensions.txt | xargs -L 1 echo code --install-extension`
+     - `cat <vscode-settings-path>/installed_extensions.txt | xargs -L 1 code --install-extension`
 
 ### Update
 
