@@ -1,30 +1,23 @@
 {
-    //========== General Settings ==========
+    //===================
+    // General Settings
+    //===================
     // Open files and folders in new window when open outside this application
     "window.openFilesInNewWindow": "default",
     "window.openFoldersInNewWindow": "default",
-    // Use block style cursor
-    "editor.cursorStyle": "block",
-    // Hide the menu
-    "window.menuBarVisibility": "hidden",
-    // Don't make the menu bar when key combinations like "alt+s" is used
-    "window.enableMenuBarMnemonics": false,
     // Open an empty window on start
     "window.restoreWindows": "none",
     // Don't open the welcome page on start
     "workbench.startupEditor": "none",
-    // Make the searches case-insensitive
-    "search.smartCase": true,
-    // Show line numbers
-    "editor.lineNumbers": "on",
-    // Add a new line a the end of the current file on save
-    "files.insertFinalNewline": true,
-
-    //========== UI Settings ==========
-    // Don't show the minimap
-    "editor.minimap.enabled": false,
+    //==============
+    // UI Settings
+    //==============
     // Zoom level
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 0.3,
+    // Hide the menu
+    "window.menuBarVisibility": "hidden",
+    // Don't show the menu bar when key combinations like "alt+s" is used
+    "window.enableMenuBarMnemonics": false,
     // Just hide the side bar when using zenmode
     "zenMode.centerLayout": false,
     "zenMode.fullScreen": false,
@@ -33,8 +26,32 @@
     "zenMode.hideTabs": true,
     "zenMode.restore": true,
     "zenMode.hideLineNumbers": false,
-
-    //========== C/C++ Settings ==========
+    //==================
+    // Editor Settings
+    //==================
+    // Use monospaced font (width of full-width:half-width=2:1)
+    "editor.fontFamily": "IPAGothic, 'ＭＳ ゴシック', monospace",
+    // Use block style cursor
+    "editor.cursorStyle": "block",
+    // Show line numbers
+    "editor.lineNumbers": "on",
+    // Show line at 80 characters
+    "editor.rulers": [
+        80
+    ],
+    // Don't show the minimap
+    "editor.minimap.enabled": false,
+    // Don't accept input suggestion on enter
+    "editor.acceptSuggestionOnEnter": "off",
+    // Make the searches case-insensitive
+    "search.smartCase": true,
+    // Add a new line a the end of the current file on save
+    "files.insertFinalNewline": true,
+    // Remove extra traling new lines at the end of the current file on save
+    "files.trimTrailingWhitespace": true,
+    //=================
+    // C/C++ Settings
+    //================
     // The compile commands to use
     "C_Cpp.default.compilerPath": "/usr/bin/g++",
     // The C++ standard to use (c++98/c++03/c++11/c++14/c++17)
@@ -50,14 +67,16 @@
     // Use a single global cache for c++ intelli-sense
     // https://github.com/Microsoft/vscode-cpptools/issues/3347
     "C_Cpp.intelliSenseCachePath": "~/.vscode",
-
-    //========== Java Settings ==========
+    //================
+    // Java Settings
+    //================
     // The URL/local file path of the eclipse formatter file to use
     "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
     // The name of the profile to use
     "java.format.settings.profile": "GoogleStyle",
-
-    //========== Python Settings ==========
+    //==================
+    // Python Settings
+    //==================
     // The path of the python command to use
     "python.pythonPath": "python3",
     // Provider for formatting.
@@ -70,8 +89,9 @@
     "python.linting.pylintEnabled": true,
     // Path to Pylint
     "python.linting.pylintPath": "pylint",
-
-    //========== Golang Settings ==========
+    //==================
+    // Golang Settings
+    //==================
     // The tool to use to get documentation
     "go.docsTool": "godoc",
     // The tool to use to format the code
@@ -91,8 +111,9 @@
         "editor.insertSpaces": true,
         "editor.formatOnSave": false
     },
-    
-    //========== HTML Settings ==========
+    //================
+    // HTML Settings
+    //================
     // Validate embeded scripts
     "html.validate.scripts": true,
     // Validate embeded styles
@@ -105,11 +126,15 @@
     "[html]": {
         "editor.tabSize": 2
     },
-
-    //========== Markdown Settings ==========
+    //====================
+    // Markdown Settings
+    //====================
     "markdownlint.config": {
+        // Allow the same heading to be used within the document
         "MD024": {
             "siblings_only": true
-        }
+        },
+        // Allow 2 quote blocks to be next to each other
+        "MD028": false
     }
 }
