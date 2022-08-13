@@ -1,5 +1,6 @@
 DavidAnson.vscode-markdownlint
 fayras.simple-new-file
+GabrielBB.vscode-lombok
 goessner.mdmath
 golang.go
 lfs.vscode-emacs-friendly
