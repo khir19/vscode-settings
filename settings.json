@@ -89,7 +89,7 @@
     // Configure other editor settings
     "[go]": {
         "editor.insertSpaces": true,
-        "editor.formatOnSave": false,
+        "editor.formatOnSave": false
     },
     
     //========== HTML Settings ==========
@@ -103,6 +103,13 @@
     "html.format.endWithNewline": true,
     // Configure other editor settings
     "[html]": {
-        "editor.tabSize": 2,
+        "editor.tabSize": 2
+    },
+
+    //========== Markdown Settings ==========
+    "markdownlint.config": {
+        "MD024": {
+            "siblings_only": true
+        }
     }
 }
