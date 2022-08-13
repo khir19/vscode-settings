@@ -1,16 +1,11 @@
-alanz.vscode-hie-server
-castwide.solargraph
 DavidAnson.vscode-markdownlint
 fayras.simple-new-file
 goessner.mdmath
-justusadam.language-haskell
-kaiwood.endwise
+golang.go
 lfs.vscode-emacs-friendly
 ms-python.python
 ms-vscode.cpptools
-ms-vscode.Go
 nobuhito.printcode
-rebornix.ruby
 redhat.java
 VisualStudioExptTeam.vscodeintellicode
 vscjava.vscode-java-debug
@@ -18,4 +13,3 @@ vscjava.vscode-java-dependency
 vscjava.vscode-java-pack
 vscjava.vscode-java-test
 vscjava.vscode-maven
-wingrunr21.vscode-ruby

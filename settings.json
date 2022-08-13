@@ -92,10 +92,6 @@
         "editor.formatOnSave": false,
     },
     
-    //========== Haskell Settings ==========
-    // "languageServerHaskell.useCustomHieWrapper": true,
-    // "languageServerHaskell.useCustomHieWrapperPath": "${HOME}/.local/bin/hie-wrapper",
-
     //========== HTML Settings ==========
     // Validate embeded scripts
     "html.validate.scripts": true,
@@ -108,30 +104,5 @@
     // Configure other editor settings
     "[html]": {
         "editor.tabSize": 2,
-    },
-
-    //========== Ruby Settings ==========
-    // Use solargraph as the language server
-    "ruby.useLanguageServer": false,
-    // Use solargraph for intellisense and auto-completion
-    "ruby.intellisense": false,
-    "solargraph.completion": true,
-    "solargraph.hover": true,
-    "solargraph.symbols": true,
-    "solargraph.definitions": true,
-    "solargraph.rename": true,
-    "solargraph.references": true,
-    // Use rubocop for linting
-    "ruby.lint": {
-        "rubocop": true,
-    },
-    "solargraph.diagnostics": true,
-    // Format Ruby using rubocop
-    "ruby.format": "rubocop",
-    "solargraph.formatting": false,
-    // Configure other editor settings
-    "[ruby]": {
-        // Set tab size to 2 spaces
-        "editor.tabSize": 2,
-    },
+    }
 }
