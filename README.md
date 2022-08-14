@@ -6,6 +6,8 @@ My VSCode settings
 
 ### Installation
 
+#### Download and Apply Settings
+
 1. Clone this repository.
    - `git clone <repository-url> <vscode-settings-path>`
 1. Put a link to the files `keybindings.json` and `settings.json` in the
@@ -21,6 +23,15 @@ My VSCode settings
 1. Install all extensions listed in the file `installed_extensions.txt`.
    - For example in Linux, execute the command below.
      - `cat <vscode-settings-path>/installed_extensions.txt | xargs -L 1 code --install-extension`
+
+#### Additional Setup
+
+##### Install Monospaced Fonts
+
+Monospaced fonts are used in the settings.
+
+1. Install the required monospaced font if it is not installed.
+   - Linux: `sudo apt install fonts-ipafont`
 
 ### Update
 

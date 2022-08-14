@@ -13,7 +13,7 @@
     // UI Settings
     //==============
     // Zoom level
-    "window.zoomLevel": 0.3,
+    "window.zoomLevel": 0.7,
     // Hide the menu
     "window.menuBarVisibility": "hidden",
     // Don't show the menu bar when key combinations like "alt+s" is used
